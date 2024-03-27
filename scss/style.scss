@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+body{
+    font-family: "Roboto", "San-serif";
+    font-style: normal;
+    .wrapper{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        .container{
+            display: flex;
+            flex-direction: column;
+            border-color: red;
+            margin: 0 auto;
+            .header-section{
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                background: rgb(30, 30, 30);
+                header{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 28px;
+                    column-gap: 41px;
+                    .logo-section{
+                        height: 26px;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 8px;
+                        h6{
+                            color: rgb(255, 255, 255);
+                            font-size: 32px;
+                            font-weight: 700;
+                            text-align: left;
+                        }
+                    }
+                    nav{
+                        ul{
+                            display: flex;
+                            column-gap: 41px;
+                            li{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color: rgb(255, 60, 120);
+                                    font-family: Roboto;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    line-height: 26px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                    .header-auth{
+                        display: flex;
+                        column-gap: 32px;
+                        button{
+                            border: none;
+                            background: inherit;
+                            color: rgb(255, 255, 255);
+                            font-size: 16px;
+                            font-weight: 400;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        .log{
+                            padding: 8px;
+                        }
+                        .buy{
+                            width: 116px;
+                            height: 48px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 16px;
+                            background: rgb(255, 60, 120);
+                            padding: 12px, 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
