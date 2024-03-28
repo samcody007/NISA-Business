@@ -69,6 +69,7 @@ body .wrapper .container .header-section header nav ul li a {
 body .wrapper .container .header-section header .header-auth {
   display: flex;
   column-gap: 32px;
+  margin-left: 272px;
 }
 body .wrapper .container .header-section header .header-auth button {
   border: none;
@@ -91,4 +92,69 @@ body .wrapper .container .header-section header .header-auth .buy {
   border-radius: 16px;
   background: rgb(255, 60, 120);
   padding: 12px, 24px;
+}
+body .wrapper .container main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: rgb(30, 30, 30);
+  padding-top: 80px;
+  padding-bottom: 76px;
+}
+body .wrapper .container main .main-section {
+  display: flex;
+  justify-content: center;
+  column-gap: 70px;
+}
+body .wrapper .container main .main-section .main-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+body .wrapper .container main .main-section .main-info h1 {
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container main .main-section .main-info p {
+  width: 456px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container main .main-section .main-info button {
+  width: 178px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+  border-radius: 14px;
+  background: rgb(255, 60, 120);
+  border: none;
+}
+body .wrapper .container main .main-section .main-info button span {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container main .main-section aside {
+  position: relative;
+  width: 478px;
+  height: 474px;
+  background-image: url(../assets/images/project-images/main-section-img.png);
+}
+body .wrapper .container main .main-section aside img {
+  position: absolute;
+  bottom: -35px;
+  right: 0;
 }/*# sourceMappingURL=style.min.css.map */
