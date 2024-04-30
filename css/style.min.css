@@ -14,18 +14,15 @@ body {
   font-style: normal;
 }
 body .wrapper {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 body .wrapper .container {
   display: flex;
   flex-direction: column;
-  border-color: red;
+  justify-content: center;
   margin: 0 auto;
 }
 body .wrapper .container .header-section {
-  width: 100vw;
   display: flex;
   justify-content: center;
   background: rgb(30, 30, 30);
@@ -94,7 +91,7 @@ body .wrapper .container .header-section header .header-auth .buy {
   padding: 12px, 24px;
 }
 body .wrapper .container main {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   background: rgb(30, 30, 30);
@@ -157,4 +154,520 @@ body .wrapper .container main .main-section aside img {
   position: absolute;
   bottom: -35px;
   right: 0;
+}
+body .wrapper .container section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 89px;
+  padding-bottom: 69px;
+  background: rgb(249, 245, 242);
+}
+body .wrapper .container section .section-part {
+  display: flex;
+  column-gap: 158px;
+}
+body .wrapper .container section .section-part .section-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+body .wrapper .container section .section-part .section-info h2 {
+  color: rgb(30, 30, 30);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container section .section-part .section-info p {
+  width: 494px;
+  color: rgb(23, 35, 39);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container section .section-part .section-info button {
+  width: 160px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  border-radius: 16px;
+  background: rgb(34, 65, 207);
+  padding: 12px, 24px;
+}
+body .wrapper .container section .section-part .section-info b {
+  margin-top: 18px;
+  color: rgb(23, 35, 39);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container section .section-part .section-info .profile {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 8px;
+}
+body .wrapper .container section .section-part .section-info .profile .owner {
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper .container section .section-part .section-info .profile .owner .owner-name {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container section .section-part .section-info .profile .owner .owner-job {
+  color: rgb(23, 35, 39);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .sharing-section {
+  display: flex;
+  width: 834px;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 24px;
+  column-gap: 153px;
+  margin-top: 80px;
+}
+body .wrapper .container .sharing-section .sharing-info {
+  display: flex;
+  flex-direction: column;
+  column-gap: 16px;
+}
+body .wrapper .container .sharing-section .sharing-info h2 {
+  color: rgb(30, 30, 30);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .sharing-section .sharing-info p {
+  width: 377px;
+  color: rgb(23, 35, 39);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+}
+body .wrapper .container .sharing-section .sharing-info button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  background: rgb(34, 65, 207);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 24px;
+}
+body .wrapper .container .sharing-section .sharing-part {
+  height: 444px;
+  width: 377px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 19px;
+  row-gap: 16px;
+  border-radius: 8px;
+  background: rgb(249, 245, 242);
+}
+body .wrapper .container .sharing-section .sharing-part .blog {
+  width: 159px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+body .wrapper .container .sharing-section .sharing-part .blog .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 242, 236);
+}
+body .wrapper .container .sharing-section .sharing-part .blog .part-name {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .wrapper .container .sharing-section .sharing-part .blog .part-info {
+  color: rgb(30, 30, 30);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+body .wrapper .container .expenses-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  column-gap: 144px;
+  background: rgb(249, 245, 242);
+}
+body .wrapper .container .expenses-section .ex-img {
+  position: relative;
+  width: 384px;
+  height: 474px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url(../assets/images/project-images/expense-section-img.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+body .wrapper .container .expenses-section .ex-img .box {
+  position: absolute;
+  width: 251px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  justify-content: center;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  bottom: 32px;
+}
+body .wrapper .container .expenses-section .ex-img .box span {
+  display: flex;
+  align-items: flex-start;
+  color: rgb(23, 35, 39);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 25px;
+}
+body .wrapper .container .expenses-section .ex-img .box .digit {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-left: 25px;
+}
+body .wrapper .container .expenses-section .ex-img .box .digit .price {
+  color: rgb(30, 30, 30);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .expenses-section .ex-img .box .digit .precent {
+  width: 53px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 16px;
+  background: rgb(255, 60, 120);
+}
+body .wrapper .container .expenses-section .ex-img .box .bar-charts {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 14px;
+  margin-left: 25px;
+}
+body .wrapper .container .expenses-section .ex-img .box .bar-charts .diagram {
+  width: 22px;
+  height: 89px;
+  border-radius: 74px;
+  background: rgb(30, 30, 30);
+}
+body .wrapper .container .expenses-section .ex-img .box .bar-charts .diagram:nth-child(2) {
+  height: 153px;
+  background: rgb(255, 60, 120);
+}
+body .wrapper .container .expenses-section .ex-img .box .bar-charts .diagram:nth-child(3) {
+  height: 75px;
+  background: rgb(255, 60, 120);
+}
+body .wrapper .container .expenses-section .ex-img .box .bar-charts .diagram:nth-child(4) {
+  height: 50px;
+  background: rgb(30, 30, 30);
+}
+body .wrapper .container .expenses-section aside {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+body .wrapper .container .expenses-section aside h2 {
+  color: rgb(30, 30, 30);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .expenses-section aside p {
+  width: 448px;
+  color: rgb(23, 35, 39);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 32px;
+}
+body .wrapper .container .expenses-section aside .starting-buttons {
+  width: 486px;
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+body .wrapper .container .expenses-section aside .starting-buttons button {
+  border: none;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .exploring {
+  background: rgb(34, 65, 207);
+}
+body .wrapper .container .expenses-section aside .starting-buttons .starting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+  border-radius: 14px;
+  background: rgb(255, 60, 120);
+  text-align: center;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .starting .play-video-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: #FFF;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .comments {
+  width: 100%;
+  display: flex;
+  column-gap: 16px;
+  margin-top: 40px;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .comments .comment-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  border-radius: 100%;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .comments span {
+  color: rgb(30, 30, 30);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .comments span:first-child {
+  padding-right: 30px;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .comments .article {
+  display: flex;
+  column-gap: 16px;
+  margin-left: 30px;
+}
+body .wrapper .container .expenses-section aside .starting-buttons .comments .article .article-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  border-radius: 100%;
+}
+body .wrapper .container .total-balance {
+  display: flex;
+  justify-content: center;
+  column-gap: 186px;
+  margin-top: 173px;
+}
+body .wrapper .container .total-balance .balance-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+body .wrapper .container .total-balance .balance-info h2 {
+  width: 448px;
+  color: rgb(30, 30, 30);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .total-balance .balance-info p {
+  width: 448px;
+  color: rgb(23, 35, 39);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .total-balance .balance-info button {
+  border: none;
+  width: 160px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgb(34, 65, 207);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+}
+body .wrapper .container .total-balance aside {
+  display: flex;
+  width: 384px;
+  height: 432px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(221, 228, 228);
+  border-style: dashed;
+  border-radius: 16px;
+  background: rgb(249, 245, 242);
+}
+body .wrapper .container .total-balance aside .balance-box {
+  position: relative;
+  width: 342px;
+  height: 384px;
+  background-image: url(../assets/images/project-images/leaf-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(221, 228, 228);
+  border-style: dashed;
+}
+body .wrapper .container .total-balance aside .balance-box .total {
+  position: absolute;
+  width: 280px;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  left: 31px;
+  bottom: 31px;
+}
+body .wrapper .container .total-balance aside .balance-box .total h4 {
+  color: rgb(30, 30, 30);
+  font-family: Satoshi;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0%;
+  margin-left: 34px;
+  text-align: left;
+}
+body .wrapper .container .total-balance aside .balance-box .total p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(23, 35, 39);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 34px;
+}
+body .wrapper .container .total-balance aside .balance-box .total .humans {
+  display: flex;
+  height: 33px;
+  align-items: center;
+  column-gap: 12px;
+}
+body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img {
+  display: flex;
+  top: 0;
+  margin-left: 23px;
+}
+body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img img {
+  width: 33px;
+  height: 33px;
+  border: 100%;
+}
+body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img img:nth-child(2) {
+  margin-left: -14px;
+}
+body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img img:nth-child(3) {
+  margin-left: -14px;
+}
+body .wrapper .container .total-balance aside .balance-box .total .humans span {
+  color: rgb(30, 30, 30);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
 }/*# sourceMappingURL=style.min.css.map */
