@@ -156,7 +156,6 @@ body .wrapper .container main .main-section aside img {
   right: 0;
 }
 body .wrapper .container section {
-  width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 89px;
@@ -543,6 +542,7 @@ body .wrapper .container .total-balance {
   justify-content: center;
   column-gap: 186px;
   margin-top: 173px;
+  margin-bottom: 132px;
 }
 body .wrapper .container .total-balance .balance-info {
   display: flex;
@@ -640,6 +640,14 @@ body .wrapper .container .total-balance aside .balance-box .total p {
   text-align: left;
   margin-left: 34px;
 }
+body .wrapper .container .total-balance aside .balance-box .total .lining {
+  height: 1px;
+  width: 211px;
+  border: 1px solid rgb(221, 228, 228);
+  margin-left: 34px;
+  margin-top: 16.5px;
+  margin-bottom: 19.5px;
+}
 body .wrapper .container .total-balance aside .balance-box .total .humans {
   display: flex;
   height: 33px;
@@ -656,10 +664,10 @@ body .wrapper .container .total-balance aside .balance-box .total .humans .human
   height: 33px;
   border: 100%;
 }
-body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img img:nth-child(2) {
+body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img svg:nth-child(2) {
   margin-left: -14px;
 }
-body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img img:nth-child(3) {
+body .wrapper .container .total-balance aside .balance-box .total .humans .humans-img svg:nth-child(3) {
   margin-left: -14px;
 }
 body .wrapper .container .total-balance aside .balance-box .total .humans span {
@@ -670,4 +678,69 @@ body .wrapper .container .total-balance aside .balance-box .total .humans span {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
+}
+body .wrapper .container .total-balance aside .balance-box .total .statistic {
+  display: flex;
+  align-items: center;
+  column-gap: 152px;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+body .wrapper .container .total-balance aside .balance-box .total .statistic p {
+  color: rgb(33, 33, 33);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .total-balance aside .balance-box .total .statistic span {
+  color: rgb(33, 33, 33);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+body .wrapper .container .total-balance aside .balance-box .total .statistic .line {
+  width: 211px;
+  height: 6px;
+  border-radius: 48px;
+  background: rgb(23, 35, 39);
+  margin-left: 34px;
+}
+body .wrapper .container .video-feature {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .wrapper .container .video-feature .bg-video-box {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
+  background-position: center;
+  background-size: auto;
+}
+body .wrapper .container .video-feature .bg-video-box h2 {
+  width: 448px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 50px;
+}
+body .wrapper .container .video-feature .video-box {
+  width: 792px;
+  height: 454px;
+  background-color: rgb(231, 208, 208);
+  margin-top: -189px;
+  background-image: url();
 }/*# sourceMappingURL=style.min.css.map */
