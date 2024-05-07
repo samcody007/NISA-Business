@@ -50,13 +50,16 @@ body{
                                 list-style: none;
                                 a{
                                     text-decoration: none;
-                                    color: rgb(255, 60, 120);
+                                    color: white;
                                     font-family: Roboto;
                                     font-size: 16px;
                                     font-weight: 700;
                                     line-height: 26px;
                                     letter-spacing: 0%;
                                     text-align: left;
+                                }
+                                a:hover{
+                                    color: rgb(255, 60, 120);
                                 }
                             }
                         }
@@ -733,6 +736,7 @@ body{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-bottom: 112px;
                 .bg-video-box{
                     width: 100%;
                     height: 420px;
@@ -757,10 +761,42 @@ body{
                 .video-box{
                     width: 792px;
                     height: 454px;
-                    background-color: rgb(231, 208, 208);
+                    // background-color: rgb(231, 208, 208);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin-top: -189px;
-                    background-image: url(../assets/images)
-                    ba
+                    background-image: url(../assets/images/project-images/bg-box.png);
+                    border-radius: 16px;
+                    background-repeat: no-repeat;
+                    .box{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 95px;
+                        height: 95px;
+                        background-color: rgba(255, 255, 255, 0.42);
+                        border-radius: 100%;
+                        .icon{
+                            width: 55px;
+                            height: 55px;
+                            border-radius: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: rgb(255, 60, 120);
+                            svg{
+                                width: 15px;
+                                height: 16px;
+                                padding-left: 2px;
+                            }
+                        }
+                    }
+                }   
+                .company-logos{
+                    display: flex;
+                    column-gap: 68px;
+                    margin-top: 64px;
                 }
             }
         }
